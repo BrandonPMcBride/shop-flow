@@ -1,7 +1,7 @@
-require("dotenv").config(); // MUST be first line
+require("dotenv").config();
 
 const express = require("express");
-const pool = require("./src/db"); // <-- path changed
+const pool = require("./db");
 
 const app = express();
 const PORT = 3000;
